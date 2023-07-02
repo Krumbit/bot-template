@@ -27,11 +27,11 @@ This fork is a TypeScript rewrite of imconnorngl's [JavaScript bot template](htt
 * Run `git clone https://github.com/Krumbit/bot-template.git .` in the folder directory.
 * Run `pnpm install` to install all required packages.
 * Rename the `.env.example` file to `.env` and paste your bot's token after the equals sign.
-* Read [the next section](#run-scripts) for information on how to run the bot
+* Read [the next section](#run-scripts) for information on how to run the bot.
 
 ### Running
 #### TypeScript
-> These scripts use the `ts-node` CLI to run the TypeScript version of the bot, without transpiling to JavaScript. Use these only during development, as they are not as preformant as the transpiled JavaScript version.
+> These scripts use the `ts-node` CLI to run the TypeScript version of the bot, without transpiling to JavaScript. Use these only during development, as they are not as performant as the transpiled JavaScript version.
 * `pnpm run dev`
   * Runs the bot once
 * `pnpm run dev:watch`
