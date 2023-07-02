@@ -38,7 +38,7 @@ This fork is a TypeScript rewrite of imconnorngl's [JavaScript bot template](htt
   * Uses `nodemon` to automatically restart the bot after any file changes
   
  #### JavaScript
- > These scrips manage the transpiled JavaScript version of the bot, ideally, in a production environment. These are more optimized and less resource intensive than the `ts-node` counterpart.
+ > These scripts manage the transpiled JavaScript version of the bot, ideally, in a production environment. These are more optimized and less resource intensive than the `ts-node` counterpart.
  * `pnpm run build`
     * Deletes the `dist/` directory (if exists) and transpiles the TypeScript project to JavaScript
 * `pnpm run start`
