@@ -8,7 +8,7 @@ export default class extends CommandHandler {
         super({
             name: "eval",
             aliases: [],
-            description: "Allows our development team to evalutate provided code.",
+            description: "Allows our development team to evaluate provided code.",
             usage: "<code>",
             example: "message.channel.send(\"hello\")",
             category: Category.developer,
