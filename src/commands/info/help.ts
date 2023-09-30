@@ -44,7 +44,7 @@ export default class extends CommandHandler {
             });
         } else {
             const command = commands.find(c => c.name == args[0] || c.aliases?.includes(args[0]));
-            if (!command) return message.error(`Could not locate a command with the name or aliase of \`${args[0]}\`. Try doing \`${message.prefix}help\` for a full list of commands.`);
+            if (!command) return message.error(`Could not locate a command with the name or aliases of \`${args[0]}\`. Try doing \`${message.prefix}help\` for a full list of commands.`);
 
             embed.setTitle(`Command Help - ${prettify(command.name)}`);
             embed.setDescription(`${command.description || "No Description Provided."}\n\u200b`);
