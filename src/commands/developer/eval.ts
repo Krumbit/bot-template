@@ -11,6 +11,7 @@ export default class extends CommandHandler {
             usage: "<code> [--s]",
             example: 'message.channel.send("hello")',
             category: Category.developer,
+            devOnly: true
         });
     }
 
